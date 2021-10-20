@@ -1,0 +1,9 @@
+{
+  "name": "iNotch",
+  "description": "Add a useless notch to your screen.",
+  "uuid": "inotch@alynx.one",
+  "version": 1,
+  "shell-version": [
+    "40"
+  ]
+}
