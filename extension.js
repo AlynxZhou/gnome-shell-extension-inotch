@@ -73,7 +73,10 @@ class Extension {
   disable() {
     Main.layoutManager.removeChrome(this.notch);
     this.notch.destroy();
+    this.notch = null;
     this.watch.remove();
+    this.watch = null;
+    this.isHidingCursor = false;
   }
 }
 
