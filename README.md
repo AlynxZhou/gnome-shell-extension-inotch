@@ -50,6 +50,10 @@ If you plan to betray free software and consecrate all your money to an evil sys
 
 If you love the Apple notch so much, you Apple fans just go to buy a real one!
 
+## Your notch has a fixed size of 250x60, which is bigger than my whole screen!
+
+Please ask Apple to make their camera smaller, I believe Apple will ask you to buy a bigger monitor in this case.
+
 ## [Other interesting FAQs you want to add here]…
 
 Send a PR.
