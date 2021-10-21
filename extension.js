@@ -20,34 +20,24 @@
 
 const {GObject, St} = imports.gi;
 const Main = imports.ui.main;
+const PointerWatcher = imports.ui.pointerWatcher;
 const ExtensionUtils = imports.misc.extensionUtils;
 
 const Me = ExtensionUtils.getCurrentExtension();
 
-// StBin cannot handle enter and leave event,
-// StButton is perfect for blocking mouse press events.
-var Notch = GObject.registerClass(class Notch extends St.Button {
+var Notch = GObject.registerClass(class Notch extends St.Bin {
   _init() {
     super._init({"name": "notch"});
     // The camera image is set to widget's background in stylesheet.
     this.set_child(new St.Widget({"name": "camera"}));
-  }
-
-  // A physical notch cannot display cursor.
-  vfunc_enter_event(event) {
-    Main.magnifier.hideSystemCursor();
-    return super.vfunc_enter_event(event);
-  }
-
-  vfunc_leave_event(event) {
-    Main.magnifier.showSystemCursor();
-    return super.vfunc_leave_event(event);
   }
 });
 
 class Extension {
   constructor() {
     this.notch = null;
+    this.watch = null;
+    this.isHidingCursor = false;
   }
 
   enable() {
@@ -60,14 +50,30 @@ class Extension {
     const y = 0;
     this.notch.set_size(width, height);
     this.notch.set_position(x, y);
+
+    // A physical notch will hide the cursor.
+    this.watch = PointerWatcher.getPointerWatcher().addWatch(70, (px, py) => {
+      if (this.isHidingCursor) {
+        if (!(px >= x && px <= x + width && py >= y && py <= y + height)) {
+          Main.magnifier.showSystemCursor();
+          this.isHidingCursor = false;
+        }
+      } else {
+        if (px >= x && px <= x + width && py >= y && py <= y + height) {
+          Main.magnifier.hideSystemCursor();
+          this.isHidingCursor = true;
+        }
+      }
+    });
   }
 
   disable() {
     Main.layoutManager.removeChrome(this.notch);
     this.notch.destroy();
+    this.watch.remove();
   }
 }
 
 function init() {
-    return new Extension();
+  return new Extension();
 }
