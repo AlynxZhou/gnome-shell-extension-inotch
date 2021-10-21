@@ -3,7 +3,7 @@
   "description": "Add a useless notch to your screen.",
   "uuid": "inotch@alynx.one",
   "url": "https://github.com/AlynxZhou/gnome-shell-extension-inotch/",
-  "version": 2,
+  "version": 2.1,
   "shell-version": [
     "40", "41"
   ]
