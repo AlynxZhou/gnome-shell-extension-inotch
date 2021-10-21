@@ -5,6 +5,6 @@
   "url": "https://github.com/AlynxZhou/gnome-shell-extension-inotch/",
   "version": 2,
   "shell-version": [
-    "40"
+    "40", "41"
   ]
 }
