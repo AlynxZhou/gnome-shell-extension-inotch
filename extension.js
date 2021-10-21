@@ -42,7 +42,10 @@ class Extension {
 
   enable() {
     this.notch = new Notch();
-    Main.layoutManager.addTopChrome(this.notch);
+    Main.layoutManager.addTopChrome(
+      this.notch,
+      {"trackFullscreen": false}
+    );
     const primaryMonitor = Main.layoutManager.primaryMonitor;
     const width = 250;
     const height = 60;
