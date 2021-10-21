@@ -28,9 +28,11 @@ I might agree with those Apple fans if I never seen the new Dell XPS 15.
 
 ## XPS 15's camera is smaller, but Apple cares users' image quality…
 
-Then I have a more Apple-ish way: I'd like to sell a accessory called **iCamera**, which could be connected to your laptop with USB-C adapter. You get a full monitor and the best image quality (compared with all built-in cameras), and Apple get money (maybe I could get an offer from Apple too).
+Then I have a more Apple-ish way: I'd like to sell an accessory called **iCamera**, which could be connected to your laptop with USB-C adapter. You get a full monitor and the best image quality (compared with all built-in cameras), and Apple get money (maybe I could get an offer from Apple too).
 
 PS Before the release of new Macbook Pro, I was thinking about making a one-key external USB-C keyboard called **iEsc** and selling it to my friend who is suffering from Touchbar because of no Esc when using Vim.
+
+It's silly? But who removed 3.5mm headphone jack and gives you a Lightning to 3.5mm jack adapter? (Firstly they said removing 3.5mm jack is to place bigger Haptics Engine for 3D Touch, but in 2021 we all know that **3D Touch is dead, as well as Touchbar**).
 
 ## It covers my clock!
 
