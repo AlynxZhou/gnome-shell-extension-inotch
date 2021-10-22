@@ -28,7 +28,7 @@ I might agree with those Apple fans if I never seen the new Dell XPS 15.
 
 ## XPS 15's camera is smaller, but Apple cares users' image quality…
 
-Then I have a more Apple-ish way: I'd like to sell an accessory called **iCamera**, which could be connected to your laptop with USB-C adapter. You get a full monitor and the best image quality (compared with all built-in cameras), and Apple get money (maybe I could get an offer from Apple too).
+Then I have a more Apple-ish way: I'd like to sell an accessory called **iCamera**, which could be connected to your laptop with a USB-C adapter. You get a full monitor and the best image quality (compared with all built-in cameras), and Apple gets money (maybe I could get an offer from Apple too).
 
 PS Before the release of new Macbook Pro, I was thinking about making a one-key external USB-C keyboard called **iEsc** and selling it to my friend who is suffering from Touchbar because of no Esc when using Vim.
 
