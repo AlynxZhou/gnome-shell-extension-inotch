@@ -50,7 +50,7 @@ class Extension {
     const width = 250;
     const height = 60;
     const x = primaryMonitor.x + (primaryMonitor.width - width) / 2;
-    const y = 0;
+    const y = primaryMonitor.y;
     this.notch.set_size(width, height);
     this.notch.set_position(x, y);
 
