@@ -69,3 +69,5 @@ Send a PR.
 ## This is a useless extension. Are you a useless developer?
 
 No, I never do development on Apple platform, also check [Fixed IME List](https://github.com/AlynxZhou/gnome-shell-extension-fixed-ime-list/), [Always Show Workspace Thumbnails](https://github.com/AlynxZhou/gnome-shell-extension-always-show-workspace-thumbnails/) and [Net Speed](https://github.com/AlynxZhou/gnome-shell-extension-net-speed/) for my useful extensions.
+
+It turns out that this joking project becomes my most stars project, if you are interested the hen after eating its egg, please visit my blog [喵's StackHarbor](https://sh.alynx.one/) (Chinese), also visit [Undefined Script Works!](https://sh.alynx.one/Undefined-Script-Works/) for my proud projects.
