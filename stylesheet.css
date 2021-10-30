@@ -1,9 +1,0 @@
-#camera {
-	background-image: url(./assets/notch-camera.png);
-}
-
-#notch {
-	padding: 10px;
-	border-radius: 0 0 10px 10px;
-	background-color: black;
-}
