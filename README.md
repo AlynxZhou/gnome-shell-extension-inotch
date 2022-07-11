@@ -58,13 +58,13 @@ If you plan to betray free software and consecrate all your money to an evil sys
 
 If you love the Apple notch so much, you Apple fans just go to buy a real one!
 
-## Your notch has a fixed size of 250x60, which is bigger than my whole screen!
+## Your notch has a fixed size of 250x60, which is larger than my whole screen!
 
-Please ask Apple to make their camera smaller, I believe Apple will ask you to buy a bigger monitor in this case.
+Please ask Apple to make their camera smaller, I believe Apple will ask you to buy a larger monitor in this case.
 
 ## Can I have option to...
 
-Apple designed the notch to be the highest standard notch. You should be happy and satisfied with how it looks and behave. Since Apple doesn't give option to change the notch, you should not have the option to change the notch.
+Apple designed the notch to be the highest standard notch. You should be happy and satisfied with how it looks and behave. Since Apple doesn't give option to change that notch, you should not have the option to change this notch.
 
 ## [Other interesting FAQs you want to add here]…
 
@@ -74,4 +74,4 @@ Send a PR.
 
 No, I never do development on Apple platform, also check [Fixed IME List](https://github.com/AlynxZhou/gnome-shell-extension-fixed-ime-list/), [Always Show Workspace Thumbnails](https://github.com/AlynxZhou/gnome-shell-extension-always-show-workspace-thumbnails/) and [Net Speed](https://github.com/AlynxZhou/gnome-shell-extension-net-speed/) for my useful extensions.
 
-It turns out that this joking project becomes my most stars project, if you are interested the hen after eating its egg, please visit my blog [喵's StackHarbor](https://sh.alynx.one/) (Chinese), also visit [Undefined Script Works!](https://sh.alynx.one/Undefined-Script-Works/) for my proud projects.
+It turns out that this joking project becomes my most stars project, if you are interested in the hen after eating its egg, please visit my blog [喵's StackHarbor](https://sh.alynx.one/) (Chinese), also visit [Undefined Script Works!](https://sh.alynx.one/Undefined-Script-Works/) for my proud projects.
