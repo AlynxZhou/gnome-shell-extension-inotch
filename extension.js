@@ -16,14 +16,11 @@
  * SPDX-License-Identifier: GPL-2.0-or-later
  */
 
-/* exported init */
-
-const {GObject, St} = imports.gi;
-const Main = imports.ui.main;
-const PointerWatcher = imports.ui.pointerWatcher;
-const ExtensionUtils = imports.misc.extensionUtils;
-
-const Me = ExtensionUtils.getCurrentExtension();
+import St from 'gi://St'
+import GObject from 'gi://GObject'
+import * as Main from 'resource:///org/gnome/shell/ui/main.js'
+import * as PointerWatcher from 'resource:///org/gnome/shell/ui/pointerWatcher.js'
+import { Extension } from 'resource:///org/gnome/shell/extensions/extension.js'
 
 var Notch = GObject.registerClass(class Notch extends St.Bin {
   _init() {
@@ -33,8 +30,9 @@ var Notch = GObject.registerClass(class Notch extends St.Bin {
   }
 });
 
-class Extension {
-  constructor() {
+export default class INotchExtension extends Extension {
+  constructor(metadata) {
+    super(metadata)
     this.notch = null;
     this.watch = null;
     this.isHidingCursor = false;
@@ -78,8 +76,4 @@ class Extension {
     this.watch = null;
     this.isHidingCursor = false;
   }
-}
-
-function init() {
-  return new Extension();
 }
