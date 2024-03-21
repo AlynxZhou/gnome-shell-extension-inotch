@@ -24,7 +24,7 @@ Please ask Apple why they create such an ugly notch on their laptop.
 
 ## I don't think this is funny and I think Apple already gives us the best solution…
 
-I might agree with those Apple fans if I never seen the new Dell XPS 15.
+I might agree with those Apple fans if I've never seen the new Dell XPS 15.
 
 ## XPS 15's camera is smaller, but Apple cares users' image quality…
 
